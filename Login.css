@@ -1,0 +1,133 @@
+.container{
+    background: linear-gradient(to top, #121212 80%, #020202 100%) ;  
+    min-width:100vw;
+    min-height: 100vh;
+    padding: 1%;
+    display: flex;
+    align-items: center; 
+    overflow: scroll;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #121212;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+}
+.box{
+    background: linear-gradient(to bottom, #121212 80%, #020202 100%);
+    width: 63vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:3vh;
+    border-radius: 7px;;
+}
+
+.mainFont{
+    font-family: "Circular Std", "Nunito", "Rubik", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 34px;
+    font-weight: normal;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 6vh;
+    margin-top: 2vh;
+}
+
+.logo, .mainFont, .btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hwb(0 0% 100%);
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color:rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255, 0.6);
+    border-radius: 50px;
+    padding: 14px 10px;
+    width: 27vw;
+    margin-bottom: 8px;
+    font-family: "Circular Std", "Nunito", "Rubik", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left:  ;
+    padding-left: 20px;
+}
+.btn:hover{
+    border: 1px solid rgb(255, 255, 255, 1);
+
+}
+.btn img{
+    height: 20px;
+    margin-left: 1vw;;
+}
+.line{
+    width: 50vw;
+    height: 1px;
+    background-color: white;
+    margin: 33px 0px;
+    opacity: 0.1;
+}
+
+.inputEmail{
+    height: 3vw;
+    width: 28vw;
+    border: 2px solid rgb(120, 121, 121);
+    background-color: rgb(18, 18, 18, 0);
+    margin-left: 28px;
+    border-radius: 5px;
+    margin-bottom: 5vh;
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20xp;
+    border: 1px solid rgb(255, 255, 255, 0.6);
+}
+.inputEmail:hover{
+    border: 1px solid rgb(255, 255, 255, 1);
+}
+
+.emailFont{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Circular Std", "Nunito", "Rubik", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    margin-right: 180px;
+    margin-bottom: 1vh;
+
+}
+
+.lastText{
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+    margin-left: 20px;
+}
+.lastText> :nth-child(1){
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Circular Std", "Nunito", "Rubik", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    opacity: 0.7;
+
+}
+.lastText> :nth-child(2){
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Circular Std", "Nunito", "Rubik", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    text-decoration: underline;
+
+}
+.lastText> :nth-child(2):hover{
+    color: #1ed760
+}
+
